@@ -18,7 +18,7 @@ if (Get-Command $env -ea SilentlyContinue){
 } else {
     Write-Output "$env is not installed."
     Write-Output "Runninng env/setup_pyenv.ps1..."
-    ./env/setup_pyenv.ps1
+    ./scripts/setup_pyenv.ps1
     Write-Output "Done."
 }
 
