@@ -1,0 +1,35 @@
+site_name: Warikan-kun
+
+site_url: https://Warikan-kun.com/
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.extra:
+    - admonition
+
+remote_branch: gh-pages
+
+theme:
+  name: 'readthedocs'
+  logo: ''
+
+extra:
+  highlightjs: true
+  version: master
+  feature:
+      tabs: true
+  palette:
+  social:
+      - type: github-alt
+        link: https://github.com/NULL62d3/warikan-kun
+
+
+copyright: Copyright &copy; NULL62d3
+
+nav:
+  - Home: 
+    - Home: index.md
+
